@@ -134,6 +134,8 @@ a, a:hover{
     margin-bottom: 0 !important;
 }
 
+
+
 /* section 7  */
 .sec-7 h3, .sec-10 h3{
     font-weight: 700;
@@ -178,10 +180,10 @@ a, a:hover{
     box-shadow: 0 5.903148174285889px 5.903148174285889px 0 rgba(0, 0, 0, 0.25);
 }
 
-
-/* responsiveness 
-@media (max-width: 768px) {
-    .small-img {
-      width: 50% !important;
-    }
-  } */
+.section.full .section_row {
+    max-width: 100%; 
+}
+.custom{
+margin:0 !important;}
+.main_wrapper_main{
+    padding:0  !important;}
